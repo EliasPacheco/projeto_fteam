@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'viewmodels/characters_viewmodel.dart';
-import 'views/characters_list_view.dart';
+import 'views/welcome_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
             ),
           ),
         ),
-        home: const CharactersListView(),
+        home: const WelcomeView(),
       ),
     );
   }
